@@ -1,0 +1,35 @@
+{
+  "name": "wa-bot",
+  "version": "1.0.0",
+  "description": "Base simple para empezar en el mundo de los Bots de WhatsApp",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanixlJs/Wa-Bot.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "node",
+    "nodejs"
+  ],
+  "author": "DanixlJs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanixlJs/Wa-Bot/issues"
+  },
+  "homepage": "https://github.com/DanixlJs/Wa-Bot#readme",
+  "dependencies": {
+    "@cacheable/node-cache": "1.5.2",
+    "@hapi/boom": "10.0.1",
+    "@whiskeysockets/baileys": "6.7.9",
+    "cfonts": "3.3.0",
+    "chalk": "5.4.1",
+    "pino": "9.6.0",
+    "qrcode-terminal": "0.12.0"
+  }
+}
